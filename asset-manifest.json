@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/noisy-beets/static/css/main.dfca195d.chunk.css",
-    "main.js": "/noisy-beets/static/js/main.cab4dfac.chunk.js",
-    "main.js.map": "/noisy-beets/static/js/main.cab4dfac.chunk.js.map",
+    "main.css": "/noisy-beets/static/css/main.355fc983.chunk.css",
+    "main.js": "/noisy-beets/static/js/main.e9a2b416.chunk.js",
+    "main.js.map": "/noisy-beets/static/js/main.e9a2b416.chunk.js.map",
     "runtime-main.js": "/noisy-beets/static/js/runtime-main.0f83b419.js",
     "runtime-main.js.map": "/noisy-beets/static/js/runtime-main.0f83b419.js.map",
-    "static/js/2.073aa249.chunk.js": "/noisy-beets/static/js/2.073aa249.chunk.js",
-    "static/js/2.073aa249.chunk.js.map": "/noisy-beets/static/js/2.073aa249.chunk.js.map",
+    "static/js/2.ca2826a2.chunk.js": "/noisy-beets/static/js/2.ca2826a2.chunk.js",
+    "static/js/2.ca2826a2.chunk.js.map": "/noisy-beets/static/js/2.ca2826a2.chunk.js.map",
     "index.html": "/noisy-beets/index.html",
-    "precache-manifest.56da1f1f30ae304eb2265b1c98bfd032.js": "/noisy-beets/precache-manifest.56da1f1f30ae304eb2265b1c98bfd032.js",
+    "precache-manifest.5b2fee8e74068bb13e80076908fc83ed.js": "/noisy-beets/precache-manifest.5b2fee8e74068bb13e80076908fc83ed.js",
     "service-worker.js": "/noisy-beets/service-worker.js",
-    "static/css/main.dfca195d.chunk.css.map": "/noisy-beets/static/css/main.dfca195d.chunk.css.map",
-    "static/media/logo.svg": "/noisy-beets/static/media/logo.25bf045c.svg"
+    "static/css/main.355fc983.chunk.css.map": "/noisy-beets/static/css/main.355fc983.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.0f83b419.js",
-    "static/js/2.073aa249.chunk.js",
-    "static/css/main.dfca195d.chunk.css",
-    "static/js/main.cab4dfac.chunk.js"
+    "static/js/2.ca2826a2.chunk.js",
+    "static/css/main.355fc983.chunk.css",
+    "static/js/main.e9a2b416.chunk.js"
   ]
 }
