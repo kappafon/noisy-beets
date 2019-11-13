@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.scss'
-// import Calculator from './containers/calculator'
+import DrumMachine from './containers/drumMachine'
 
 const App: React.FC = () => {
-    return <div className="App">test</div>
+    return <DrumMachine />
 }
 
 export default App
