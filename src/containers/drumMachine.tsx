@@ -1,5 +1,7 @@
 import * as React from 'react'
 import './drumMachine.scss'
+import Display from '../components/display'
+import DrumPad from '../containers/drumPad'
 
 export interface CalculatorProps {}
 const DrumMachine: React.FC<CalculatorProps> = props => {
@@ -8,7 +10,8 @@ const DrumMachine: React.FC<CalculatorProps> = props => {
     return (
         <div className="drum-machine">
             <main className="drum-machine__container" id="drum-machine">
-                test
+                <Display />
+                <DrumPad />
             </main>
         </div>
     )
