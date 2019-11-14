@@ -3,27 +3,30 @@ import './pad.scss'
 
 export interface PadProps {
     id: string
-    value: string | number
-    className?: string
+    value: string
+    src: string
+    pressed: boolean
 
-    onButtonClicked(value: string): void
+    onButtonClicked(id: string): void
 }
 
 const Pad: React.FC<PadProps> = props => {
-    const onButtonClicked = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-        props.onButtonClicked(e.currentTarget.value)
+    let audio: React.RefObject<HTMLAudioElement> = React.createRef()
+
+    React.useEffect(() => {
+        if (props.pressed) audio.current!.play()
+    })
+
+    const onButtonClicked = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        props.onButtonClicked(props.id)
+        audio.current!.play()
     }
+
     return (
-        <button
-            id={props.id}
-            className={`button ${props.className}`}
-            onClick={onButtonClicked}
-            value={props.value.toString()}
-        >
-            <audio id={props.id} className={`button drum-pad ${props.className}`}>
-                {props.value}
-            </audio>
-        </button>
+        <div id={props.id} className="drum-pad button" onClick={onButtonClicked}>
+            {props.value}
+            <audio ref={audio} id={props.value} className="clip" src={props.src} />
+        </div>
     )
 }
 
